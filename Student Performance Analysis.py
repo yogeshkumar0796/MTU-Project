@@ -206,25 +206,6 @@ mark_df=pd.DataFrame.from_dict(mark_dict)
 mark_df
 
 
-# In[ ]:
-
-
-
-# importing the modules
-from tabulate import tabulate
-import pandas as pd
-  
-# creating a DataFrame
-dict = {'Name':['Martha', 'Tim', 'Rob', 'Georgia'],
-        'Maths':[87, 91, 97, 95],
-        'Science':[83, 99, 84, 76]}
-df = pd.DataFrame(dict)
-  
-# displaying the DataFrame
-print(tabulate(df, headers = 'keys', tablefmt = 'psql'))
-
-
-# In[ ]:
 
 
 #mark_df.to_csv('C:/Users/konde/Downloads/project/Marks_all.csv')
@@ -234,9 +215,9 @@ print(tabulate(df, headers = 'keys', tablefmt = 'psql'))
 
 
 
-mark_df=pd.read_csv("C:/Users/konde/Downloads/project/Marks_all.csv")
+#mark_df=pd.read_csv("C:/Users/konde/Downloads/project/Marks_all.csv")
 
-mark_df
+#mark_df
 
 
 # In[15]:
